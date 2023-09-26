@@ -42,12 +42,12 @@ for i in range(10):
 for i in range(1, 10, 2):
     print(i)
 
-# Percorrendo array (item)
+# Percorrendo lista (item)
 array = [1, 3, 5]
 for i in array:
     print(i)
 
-# Percorrendo array (indice)
+# Percorrendo lista (indice)
 for i in range(len(array)):  # for i in range(3)
     print(i)
 
