@@ -8,3 +8,8 @@ print(nome[5:10:2])
 print(nome[:])
 print(nome[::-1])
 print(nome[-7:])
+
+# Separando a frase em espacos
+print(nome.split())
+# Separando a frase a cada letra 'a'
+print(nome.split('a'))
