@@ -2,7 +2,6 @@
 def nome(parametro: str) -> str:
     print(parametro)
 
-
 # Condicionais
 valor = 5
 if valor > 0:
@@ -35,7 +34,8 @@ for i in range(10):
     print(i)
 
 # Por que é assim?
-# O range retorna um objeto contendo uma sequencia de numeros, para saber mais acesse a documentacao do Python
+# O range retorna um objeto contendo uma sequencia de numeros,
+# para saber mais acesse a documentacao do Python
 
 # Outro exemplo:
 # 1 a 10 de 2 em 2
@@ -68,3 +68,7 @@ while True:
     i += 1
     if i == 10:  # Condicaod de Parada
         break
+
+## Entrada input()
+nome = input('Digite seu nome: ')
+print('Fala comigo, '+nome)
