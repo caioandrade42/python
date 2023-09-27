@@ -1,24 +1,19 @@
-nome="Caio"
-idade=28
-profissao="Programador"
-linguagem="Python"
-dados={"nome":"Caio","idade":28,
-       "linguagem":"Python","profissao":"Programador"}
+nome = "Caio"
+idade = 28
+profissao = "Programador"
+linguagem = "Python"
 
-print("Ola me chamo %s. Tenho %d anos de idade, trabalho como %s e estou matriculado "
-      "no curso de %s"%(nome,idade,profissao,linguagem))
-print("Ola me chamo {nome}. Tenho {idade} anos de idade, trabalho como {profissao} e estou matriculado "
-      "no curso de {linguagem}".format(linguagem=linguagem,profissao=profissao
-                                       ,idade=idade,nome=nome))
-print("Ola me chamo {nome}. Tenho {idade} anos de idade, trabalho como {profissao} e estou matriculado "
-      "no curso de {linguagem}".format(linguagem=linguagem,profissao=profissao
-                                       ,idade=idade,nome=nome))
-print(f"Ola me chamo {nome}. Tenho {idade} anos de idade, trabalho como {profissao} e estou matriculado "
+dados = {"nome": "Caio", "idade": 28,
+         "linguagem": "Python", "profissao": "Programador"}
+
+print("1 - Ola me chamo %s. Tenho %d anos de idade, trabalho como %s e estou matriculado "
+      "no curso de %s" % (nome, idade, profissao, linguagem))
+print("2 - Ola me chamo {nome}. Tenho {idade} anos de idade, trabalho como {profissao} e estou matriculado "
+      "no curso de {linguagem}".format(linguagem=linguagem, profissao=profissao, idade=idade, nome=nome))
+print("3 - Ola me chamo {}. Tenho {} anos de idade, trabalho como {} e estou matriculado "
+      "no curso de {}".format(nome, idade, profissao, linguagem))
+print(f"4 - Ola me chamo {nome}. Tenho {idade} anos de idade, trabalho como {profissao} e estou matriculado "
       f"no curso de {linguagem}.")
-
-PI=3.14159
-print(f"Valor de PI: {PI:.2f}")
-print(f"Valor de PI: {PI:.4f}")
-
-print("Ola me chamo {nome}. Tenho {idade} anos de idade, trabalho como {profissao} e estou matriculado "
+print("5 - Ola me chamo {nome}. Tenho {idade} anos de idade, trabalho como {profissao} e estou matriculado "
       "no curso de {linguagem}.".format(**dados))
+
