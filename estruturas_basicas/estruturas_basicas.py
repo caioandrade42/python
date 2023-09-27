@@ -1,6 +1,6 @@
 # Funcoes
 def nome(parametro: str) -> str:
-    print(parametro)
+    return parametro
 
 # Condicionais
 valor = 5
@@ -55,14 +55,11 @@ for i in range(len(array)):  # for i in range(3)
 for i in "Curso Python":
     print(i)
 
-# While
 i = 0
 while i < 10:
     i += 1
     print(i)
 
-# Do While
-# Também não tem ;-;
 i = 0
 while True:
     i += 1
